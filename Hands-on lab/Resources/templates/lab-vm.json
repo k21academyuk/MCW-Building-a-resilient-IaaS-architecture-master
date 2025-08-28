@@ -19,7 +19,7 @@
     },
     "studentFile": {
       "type": "string",
-      "defaultValue": "student-files/studentfiles.zip"
+      "defaultValue": "student-files/studentfiles"
     },
     "studentFilesDestination": {
       "type": "string",
@@ -27,7 +27,7 @@
     },
     "baseUri": {
         "type": "string",
-        "defaultValue": "https://raw.githubusercontent.com/microsoft/MCW-Building-a-resilient-IaaS-architecture/november-2020-test-fix/Hands-on%20lab/Resources/"
+        "defaultValue": "https://github.com/k21academyuk/MCW-Building-a-resilient-IaaS-architecture-master/tree/main/Hands-on%20lab/Resources"
     }
   },
   "variables": {
@@ -35,8 +35,8 @@
     "customScriptUriScriptFileName": "configure-labvm.ps1",
     "customScriptUri": "[concat(parameters('baseUri'),'scripts/configure-labvm.ps1')]",
     "imagePublisher": "MicrosoftVisualStudio",
-    "imageOffer": "visualstudio2019latest",
-    "imageSku": "vs-2019-comm-latest-ws2019",
+    "imageOffer": "visualstudiowsplustools",
+    "imageSku": "vs-2019-ent-ws2025-datacenter-azure-gen2",
     "imageVersion": "latest",
     "OSDiskName": "LabVMOSDisk",
     "OSDiskType": "Premium_LRS",
